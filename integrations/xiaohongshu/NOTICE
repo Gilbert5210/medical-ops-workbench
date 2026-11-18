@@ -1,0 +1,10 @@
+xiaohongshu-mcp
+Upstream: https://github.com/xpzouying/xiaohongshu-mcp
+Pinned release: v2.7.4
+Pinned commit: bb6fa2e208719ee634fec37881be29d3aa4699b3
+License: Apache License, Version 2.0 (see LICENSE)
+
+Local additions/modifications in this directory provide creator-page login
+validation, a creator-status endpoint, and its regression test. The build script
+also adds the endpoint route to the upstream source. No upstream executable,
+runtime account data, or credentials are distributed in this repository.
